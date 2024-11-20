@@ -127,3 +127,10 @@ console.log(newString);
 // let age = "18";
 // age = Number(age);
 // console.log(typeof age);
+// string concatenation 
+
+let string1 = "17";
+let string2 = "10";
+
+let newString1 = +string1 + +string2;
+console.log(typeof newString1);
