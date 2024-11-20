@@ -52,3 +52,8 @@ console.log(value1);
 let firstName = "harshit";
 firstName = "Mohit";
 console.log(firstName);
+
+// declare constants 
+
+const pi = 3.14;
+console.log(pi);
