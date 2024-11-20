@@ -45,3 +45,10 @@ console.log(value1);
 
 // convention 
 // start with small letter and use camelCase 
+
+// let keyword 
+// declare variable with let keyword 
+
+let firstName = "harshit";
+firstName = "Mohit";
+console.log(firstName);
