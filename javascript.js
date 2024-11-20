@@ -74,3 +74,24 @@ console.log(firstName.length);
 console.log(firstName[firstName.length-2]);
 
 // last Index : length - 1 
+
+// trim() 
+// toUpperCase()
+// toLowerCase()
+// slice()
+
+let firstName = "  Saurabh ";
+
+// console.log(firstName.length);
+// firstName = firstName.trim(); // "Saurabh12"
+// console.log(firstName)
+// console.log(firstName.length);
+// firstName = firstName.toUpperCase();
+// firstName = firstName.toLowerCase();
+// console.log(firstName);
+
+// start index 
+// end index
+
+let newString = firstName.slice(1); // Saurabh
+console.log(newString);
