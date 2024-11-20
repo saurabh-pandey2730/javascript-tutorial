@@ -134,3 +134,14 @@ let string2 = "10";
 
 let newString1 = +string1 + +string2;
 console.log(typeof newString1);
+
+// template string 
+let age = 24;
+let firstName = "Shivansh"
+
+// "my name is harshit and my age is 22 "
+// let aboutMe = "my name is " + firstName + " and my age is " + age; 
+
+let aboutMe = `my name is ${firstName} and my age is ${age}`
+
+console.log(aboutMe);
