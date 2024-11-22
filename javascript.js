@@ -659,16 +659,17 @@ console.log(myNewArray);
 
 // how to create objects 
 
-// const person = {name:"Harshit",age:22};
+// const person = {name:"Golu ",age:22};
 const person = {
-    name: "harshit",
+    firstName: "Vikram",
+    lastName: "Singh",
     age: 22,
     hobbies: ["guitar", "sleeping", "listening music"]
 }
 console.log(person);
 
 // how to access data from objects 
-// console.log(person["name"]);
+// console.log(person["firstName"]);
 // console.log(person["age"]);
 // console.log(person.hobbies);
 
