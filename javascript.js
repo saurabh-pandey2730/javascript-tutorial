@@ -760,3 +760,15 @@ const obj1 = {
   // const newObject = { ...["item1", "item2"] };
   // const newObject = { ..."abcdefghijklmnopqrstuvwxyz" };
   // console.log(newObject);
+
+  // object destructuring
+const band = {
+    bandName: "led zepplin",
+    famousSong: "stairway to heaven",
+    year: 1968,
+    anotherFamousSong: "kashmir",
+  };
+  
+  let { bandName, famousSong, ...restProps } = band;
+  console.log(bandName);
+  console.log(restProps);
