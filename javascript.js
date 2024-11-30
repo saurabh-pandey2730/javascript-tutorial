@@ -1440,3 +1440,15 @@ const obj = {
 // obj.key3 = "value3";
 // console.log(obj);
 // console.log(obj2);
+
+// optional chaining 
+
+const user  = {
+    firstName: "Shivam",
+    // address: {houseNumber: '1234'}
+}
+
+
+
+console.log(user?.firstName);
+console.log(user?.address?.houseNumber);
