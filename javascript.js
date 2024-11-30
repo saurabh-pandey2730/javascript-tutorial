@@ -1304,3 +1304,26 @@ const myArray = ['item1', 'item2', 'item3'];
 const deletedItem = myArray.splice(1, 2, "inserted item1", "inserted item2")
 console.log("delted item", deletedItem);
 console.log(myArray);
+
+// iterables 
+// jispe hum for of loop laga sakein
+// string , array are iterable 
+
+// const firstName = "Yazhain";
+// for(let char of firstName){
+//     console.log(char);
+// }
+
+const items = ['item1', 'item2', 'item3'];
+// for(let item of items){
+//     console.log(item);
+// }
+
+// array like object 
+// jinke pas length property hoti hai 
+// aur jiko hum index se access kar sakte hai
+// example :- string 
+
+// const firstName = "Yazhain";
+// console.log(firstName.length);
+// console.log(firstName[2]);
