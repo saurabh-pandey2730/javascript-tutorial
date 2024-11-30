@@ -1479,3 +1479,11 @@ const person3 = {
 person1.about();
 person2.about();
 person3.about();
+
+// console.log(window);
+// "use strict";
+// function myFunc(){
+
+//     console.log(this);
+// }
+// myFunc();
