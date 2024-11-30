@@ -1531,3 +1531,23 @@ const user1 = {
 }
 
 user1.about(user1);
+
+// const user1 = {
+//     firstName : "Vivek",
+//     age: 8,
+//     about: function(){
+//         console.log(this.firstName, this.age);
+//     }   
+// }
+
+// const user1 = {
+//     firstName : "Hello",
+//     age: 8,
+//     about(){
+//         console.log(this.firstName, this.age);
+//     }   
+// }
+
+
+
+user1.about();
