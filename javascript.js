@@ -1821,3 +1821,26 @@ class CreateUser{
 }
 const user1 = new CreateUser('Saurabh', 'pandey', 'saurabh@gmail.com', 18, "my address");
 const user2 = new CreateUser('Shivam', 'pandey', 'saurabh@gmail.com', 15, "my address");
+
+
+class Animal {
+    constructor(name, age){
+        this.name = name;
+        this.age = age;
+    }
+    eat(){
+        return `${this.name} is eating`;
+    }
+    isSuperCute(){
+        return this.age <= 1;
+    }
+    isCute(){
+        return true;
+    }
+}
+class Dog extends Animal{
+    
+} 
+const tommy = new Dog("tommy", 3);
+console.log(tommy);
+console.log(tommy.isCute());
